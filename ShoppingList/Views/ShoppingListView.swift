@@ -7,14 +7,18 @@ struct ShoppingListView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(viewModel.items) { item in
+                ForEach(viewModel.filteredItems) { item in
                     ShoppingItemRow(item: item) {
                         viewModel.toggleChecked(item)
                     }
                 }
-                .onDelete(perform: viewModel.removeItems)
+                .onDelete { offsets in
+                    let itemsToRemove = offsets.map { viewModel.filteredItems[$0] }
+                    viewModel.removeItems(itemsToRemove)
+                }
             }
             .navigationTitle("Alışveriş Listesi")
+            .searchable(text: $viewModel.searchText, prompt: "Ürün ara")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button {
@@ -30,12 +34,16 @@ struct ShoppingListView: View {
                 }
             }
             .overlay {
-                if viewModel.items.isEmpty {
-                    ContentUnavailableView(
-                        "Liste Boş",
-                        systemImage: "cart",
-                        description: Text("Eklemek için sağ üstteki + butonuna dokun.")
-                    )
+                if viewModel.filteredItems.isEmpty {
+                    if viewModel.searchText.isEmpty {
+                        ContentUnavailableView(
+                            "Liste Boş",
+                            systemImage: "cart",
+                            description: Text("Eklemek için sağ üstteki + butonuna dokun.")
+                        )
+                    } else {
+                        ContentUnavailableView.search(text: viewModel.searchText)
+                    }
                 }
             }
         }

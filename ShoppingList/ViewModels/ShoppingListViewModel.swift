@@ -4,6 +4,14 @@ import Combine
 @MainActor
 final class ShoppingListViewModel: ObservableObject {
     @Published private(set) var items: [ShoppingItem] = []
+    @Published var searchText: String = ""
+
+    var filteredItems: [ShoppingItem] {
+        guard !searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+            return items
+        }
+        return items.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
+    }
 
     private let persistence: PersistenceServiceProtocol
 
@@ -27,6 +35,12 @@ final class ShoppingListViewModel: ObservableObject {
 
     func removeItems(at offsets: IndexSet) {
         items.remove(atOffsets: offsets)
+        persist()
+    }
+
+    func removeItems(_ itemsToRemove: [ShoppingItem]) {
+        let idsToRemove = Set(itemsToRemove.map(\.id))
+        items.removeAll { idsToRemove.contains($0.id) }
         persist()
     }
 
