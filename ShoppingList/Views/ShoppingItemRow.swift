@@ -3,6 +3,7 @@ import SwiftUI
 struct ShoppingItemRow: View {
     let item: ShoppingItem
     let onToggle: () -> Void
+    let onEdit: () -> Void
 
     var body: some View {
         HStack {
@@ -23,9 +24,11 @@ struct ShoppingItemRow: View {
 
             Spacer()
         }
+        .contentShape(Rectangle())
+        .onTapGesture(perform: onEdit)
     }
 }
 
 #Preview {
-    ShoppingItemRow(item: ShoppingItem(name: "Süt", quantity: 2), onToggle: {})
+    ShoppingItemRow(item: ShoppingItem(name: "Süt", quantity: 2), onToggle: {}, onEdit: {})
 }

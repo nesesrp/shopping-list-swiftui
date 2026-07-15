@@ -6,6 +6,48 @@
 	<integer>12</integer>
 	<key>logs</key>
 	<dict>
+		<key>8392F910-E895-4A4D-8377-89C747172B63</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8392F910-E895-4A4D-8377-89C747172B63.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ShoppingList project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ShoppingList</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project ShoppingList with scheme ShoppingList</string>
+			<key>timeStartedRecording</key>
+			<real>805830931.64754605</real>
+			<key>timeStoppedRecording</key>
+			<real>805830940.22600996</real>
+			<key>title</key>
+			<string>Building project ShoppingList with scheme ShoppingList</string>
+			<key>uniqueIdentifier</key>
+			<string>8392F910-E895-4A4D-8377-89C747172B63</string>
+		</dict>
 		<key>888BE479-F569-468A-A9EC-B395A945B167</key>
 		<dict>
 			<key>className</key>
