@@ -18,3 +18,24 @@ targets:
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+  ShoppingListTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: ShoppingListTests
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: ShoppingList
+schemes:
+  ShoppingList:
+    build:
+      targets:
+        ShoppingList: all
+        ShoppingListTests: [test]
+    test:
+      targets:
+        - ShoppingListTests

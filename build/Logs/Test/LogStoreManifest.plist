@@ -5,6 +5,66 @@
 	<key>logFormatVersion</key>
 	<integer>12</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>E8DC591B-662C-439F-B37C-BB9278A36234</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F58D7B35-550E-4B8C-B405-9EBC1A3CFF7B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-ShoppingList-2026.07.15_21-00-20-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ShoppingList project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ShoppingList</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test ShoppingList</string>
+			<key>timeStartedRecording</key>
+			<real>805831220.836568</real>
+			<key>timeStoppedRecording</key>
+			<real>805831251.56800902</real>
+			<key>title</key>
+			<string>Test ShoppingList</string>
+			<key>uniqueIdentifier</key>
+			<string>E8DC591B-662C-439F-B37C-BB9278A36234</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'ShoppingListTests' in project 'ShoppingList'
+➜ Explicit dependency on target 'ShoppingList' in project 'ShoppingList'
+Target 'ShoppingList' in project 'ShoppingList' (no dependencies)

@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListTests-primary.dia",
+    "emit-module-dependencies" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListTests-primary-emit-module.dia",
+    "pch" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListTests-primary.swiftdeps"
+  },
+  "/Users/nese/Desktop/shopping-list-swiftui/ShoppingListTests/MockPersistenceService.swift" : {
+    "const-values" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.swiftconstvalues",
+    "dependencies" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.d",
+    "diagnostics" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.dia",
+    "index-unit-output-path" : "/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.o",
+    "llvm-bc" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.bc",
+    "object" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.o",
+    "swift-dependencies" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService.swiftdeps",
+    "swiftmodule" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/MockPersistenceService~partial.swiftmodule"
+  },
+  "/Users/nese/Desktop/shopping-list-swiftui/ShoppingListTests/ShoppingListViewModelTests.swift" : {
+    "const-values" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.swiftconstvalues",
+    "dependencies" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.d",
+    "diagnostics" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.dia",
+    "index-unit-output-path" : "/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.o",
+    "llvm-bc" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.bc",
+    "object" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.o",
+    "swift-dependencies" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests.swiftdeps",
+    "swiftmodule" : "/Users/nese/Desktop/shopping-list-swiftui/build/Build/Intermediates.noindex/ShoppingList.build/Debug-iphonesimulator/ShoppingListTests.build/Objects-normal/x86_64/ShoppingListViewModelTests~partial.swiftmodule"
+  }
+}

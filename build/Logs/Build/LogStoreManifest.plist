@@ -48,7 +48,7 @@
 			<key>uniqueIdentifier</key>
 			<string>8392F910-E895-4A4D-8377-89C747172B63</string>
 		</dict>
-		<key>888BE479-F569-468A-A9EC-B395A945B167</key>
+		<key>F58D7B35-550E-4B8C-B405-9EBC1A3CFF7B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>888BE479-F569-468A-A9EC-B395A945B167.xcactivitylog</string>
+			<string>F58D7B35-550E-4B8C-B405-9EBC1A3CFF7B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -80,15 +80,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Building project ShoppingList with scheme ShoppingList</string>
+			<string>Testing project ShoppingList with scheme ShoppingList</string>
 			<key>timeStartedRecording</key>
-			<real>805830244.29034197</real>
+			<real>805831220.83516097</real>
 			<key>timeStoppedRecording</key>
-			<real>805830327.14046299</real>
+			<real>805831229.55401504</real>
 			<key>title</key>
-			<string>Building project ShoppingList with scheme ShoppingList</string>
+			<string>Testing project ShoppingList with scheme ShoppingList</string>
 			<key>uniqueIdentifier</key>
-			<string>888BE479-F569-468A-A9EC-B395A945B167</string>
+			<string>F58D7B35-550E-4B8C-B405-9EBC1A3CFF7B</string>
 		</dict>
 	</dict>
 </dict>
